@@ -1,0 +1,10 @@
+USAGE
+=====
+
+```php
+$lyrics = new Terra_lyrics;
+
+if($lyrics->search('Iron Maiden - The Trooper')) {
+	echo $lyrics->getLyrics();
+}
+```
